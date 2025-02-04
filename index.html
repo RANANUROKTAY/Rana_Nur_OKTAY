@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8" lang="tr">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Özgeçmiş</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            /*Arial, sans-serif;*/
+            margin: 0;
+            padding: 0;
+            background-color: #f3f8f2;
+            /* Arka plan */
+            color: #333333;
+            /* Metin rengi */
+        }
+
+        .Kisisel {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #ffffff;
+            /*background-image: url('Resim Klasörü/Duvar Kağıdı.jpg');*/
+            /* Beyaz alan */
+            border-radius: 8px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        }
+
+        .Profil {
+            display: flex;
+            align-items: center;
+            margin-bottom: 30px;
+        }
+
+        .Profil-Resmi {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 3px solid #050505;
+            /* Sınır */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .Profile-Icerik {
+            margin-left: 20px;
+        }
+
+        h1 {
+            margin-bottom: 10px;
+            color: #060606;
+            /* Başlık */
+        }
+
+        .Icerik {
+            margin-bottom: 5px;
+        }
+
+        .Duzen {
+            margin-bottom: 30px;
+            border-left: 4px solid #4caf50;
+            /* Kenarlıklar */
+            padding-left: 10px;
+        }
+
+        h2 {
+            margin-bottom: 15px;
+            color: #4caf50;
+            /* Bölüm başlıkları */
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 5px;
+        }
+
+        a {
+            color: blue;
+            text-decoration: none;
+            /* Altçizgiyi kaldırır */
+        }
+
+        a:hover {
+            color: red;
+            /* Üzerine gelindiğinde değişim rengi: Kırmızı */
+        }
+
+        table,
+        th,
+        td {
+            border-bottom: 2px solid rgb(13, 74, 9);
+            background-color: rgb(234, 232, 232);
+        }
+
+        th,
+        td:hover {
+            background-color: rgb(205, 201, 201);
+        }
+
+        th,
+        td {
+            padding: 17px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="Kisisel">
+        <div class="Profil">
+            <img src="Resim Klasörü/RANANUROKTAY.jpg" alt="Profil-Resmi" class="Profil-Resmi">
+            <div class="Profile-Icerik">
+                <h1>RANA NUR OKTAY</h1>
+                <p class="Icerik">Telefon: 05524038122</p>
+                <p class="Icerik">E-posta: rana44malatya44hekimhan4427@gmail.com</p>
+                <p class="Icerik">Malatya-Türkiye</p>
+            </div>
+        </div>
+
+        <div class="Duzen">
+            <h2>Kişisel Bilgiler <span style='font-size:25px;color: #050505;'></span></h2>
+            <ul>
+                <li>2003 yılında Gaziantep ilinde dünyaya geldim.Babam memur,annem ise ev hanımı.
+                    Her ikisi de sağ. 3 çocuktan en büyüğüyüm.Ehliyetim yok. Adıma kayıtlı herhangi
+                    bir mal ya da mülk yok.</li>
+            </ul>
+        </div>
+
+        <div class="Duzen">
+            <h2>Eğitim Hayatı <span style='font-size:25px;'></span></h2>
+            <ul>
+                <li>2022'den beri İnönü Üniversitesi Yazılım Mühendisliği öğrencisiyim.Ayrıca ünivesitemiz bünyesindeki
+                    öğrenci topluluklarından 'Mehteran Topluluğu'nun başkanıyım.</li>
+                <li>2023'den beri İstanbul Üniversitesi Bilgisayar Programcılığı öğrencisiyim.</li>
+                <li>Kerem Aydınlar Fen Lisesi mezunuyum(2017-2021).</li>
+            </ul>
+        </div>
+
+
+
+        <div class="Duzen">
+            <h2>Deneyim <span style='font-size:25px;'></span></h2>
+            <ul>
+                <li>Herhangi bir şirketin herhangi bir kısmında daha önce bulunmadım.</li>
+            </ul>
+        </div>
+
+        <div class="Duzen">
+            <h2> Teknik Beceriler <span style='font-size:25px;'></span></h2>
+            <ul>
+                <li>Programlama Dilleri: Python(Sayısal analiz ve görüntü işleme alanlarında kullandım.),Java, C,C#,HTML,JavaScript,CSS,PHP,PL/SQL</li>
+                <li>Veritabanları: PostgreSQL</li>
+                <li>Araçlar & Teknolojiler:Linux, Spring Boot, React,JSF</li>
+                <li>Diğer:API geliştirme, Nesne Yönelimli Programlama (Java ve C#)</li>
+
+            </ul>
+        </div>
+
+        <div class="Duzen">
+            <h2>Projeler <span style='font-size:25px;'></span></h2>
+            <ul>
+                <li>
+                    Hastane Yönetim Sistemi (Java, PostgreSQL, Swing)<br>
+                    -Hastane bünyesindeki kayıtların yönetimini sağlayan bir masaüstü uygulaması geliştirdim.
+                    Kullanılan teknolojiler: Java (Swing), PostgreSQL, JDBC, Singleton,Memento ve Command tasarım
+                    kalıpları.
+                </li>
+                <li>Magic 8 Ball(HTML,CSS,JavaScript)</li>
+                <li>Ekibim ile Figma'nın yardımıyla kişiye özel etkinlik planlaması yapan bir uygulama geliştirdik</li>
+            </ul>
+        </div>
+
+
+        <div class="Duzen">
+            <h2>Projelerim için(Henüz pek doldurmadım.) <span style='font-size:25px;'></span></h2>
+            <ul>
+                <li> <a href="https://github.com/RANANUROKTAY">RANA NUR OKTAY - GITHUB</a></li>
+            </ul>
+        </div>
+
+        <div class="Duzen">
+            <h2>Referanslar <span style='font-size:25px;'></span></h2>
+            <ul>
+                <li>Talep edilmesi halinde belirtilecektir.</li>
+            </ul>
+        </div>
+        <div class="Duzen">
+            <h2>Hedeflerim<span style='font-size:25px;color: rgb(12, 12, 12);'></span></h2>
+            <ul>
+                <li>Başta ailem sonra milletim olmak üzere insanları gururlandırmak.Vatana ve devletimin bekasına
+                    sadık bir mühendis olmak.Türklüğün en güzel örneklerinden biri haline gelmektir. </li>
+            </ul>
+        </div>
+        <div class="Duzen">
+            <h2>Kendimden Bahsederken <span style='font-size:25px;'></span></h2>
+            <ul>
+                <li>Cesaretimden,azmimden,hırsımdan,liderliğimden,kararlılığımdan,grup çalışmalarındaki başarımdan,
+                    tutkumdan,işime duyduğum aşktan söz edebilirim. </li>
+            </ul>
+        </div>
+
+        <div class="Duzen">
+            <h2>İlgi Alanları ve Yetenekler <span style='font-size:25px;'></span>
+            </h2>
+            <ul>
+                <li>Kick Boks,Taekwondo,Wushu, Muay Thai, Boks olmak üzere başlıca dövüş sporlarını profesyonelce
+                    yaptım.
+                    2 altın madalyam var(2014-Doğu Anadolu Şampiyonu)(2016-Elazığ Şampiyonu).</li>
+                <li>Futsal,Futbol,Voleybol,Basketbol,çeşitli doğa sporları(kampçılık,doğa yürüyüşleri,hayatta
+                    kalma),Atletizm, vücut geliştirme,yüzme gibi sporlarla da uğraştım.</li>
+                <li>Gitar çalmak,kil sanatı,halı sanatı,boncuk yapıştırma sanatı,sabun işlemeciliği ve örgü yapımı gibi
+                    çeşitli güzel sanatlar ile ilgilendim.</li>
+                <li>Fotoğrafçılık.</li>
+                <li>Bir dili öğrenmek.</li>
+                <li>Gezmek.</li>
+                <li>Okumak,araştırmak.</li>
+                <li>Dünya mutfakları ve kendi kültürümüzün mutfak lezzetlerini tatmak,denemek.</li>
+            </ul>
+        </div>
+        <div class="Duzen">
+            <h2>Dil Yetenekleri <span style='font-size:25px;'></span></h2>
+            <table style="widht:35%">
+
+
+                <tr>
+                    <th>Türkçe</th>
+                    <td> Anadil </td>
+
+                </tr>
+
+
+                <tr>
+                    <th>İngilizce</th>
+                    <td> B2-C1 </td>
+
+                </tr>
+
+
+                <tr>
+                    <th>Almanca</th>
+                    <td>A2</td>
+                </tr>
+        </div>
+
+
+    </div>
+</body>
+
+</html>
